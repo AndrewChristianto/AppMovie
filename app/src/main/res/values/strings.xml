@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MOV</string>
+    <string name="lanjutkan">LANJUTKAN</string>
+    <string name="lewati_perkenalan">LEWATI PERKENALAN</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="now_playing_desc">Lebih mudah untuk mengetahui\nfilm yang sedang tampil</string>
+    <string name="pre_sale">Pre Sale</string>
+    <string name="pre_sale_desc">Tidak khawatir ketinggalan\nupdate film terbaru</string>
+    <string name="cashless">Cashless</string>
+    <string name="cashless_desc">Gunakan e-wallet untuk\ntransaksi tiket nonton</string>
+    <string name="memulai">Memulai</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="masuk_akun">Masuk Akun</string>
+    <string name="daftar_akun">Daftar Akun</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="photo">Photo</string>
+    <string name="upload_nanti">Upload Nanti</string>
+    <string name="welcome">Welcome,\nAndrew Christianto</string>
+    <string name="simpan_dan_lanjutkan">Simpan dan Lanjutkan</string>
+    <string name="now_playing1">Now Playing</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="pilih_bangku">Pilih Bangku</string>
+    <string name="pilih_bangku1">Pilih Bangku</string>
+    <string name="beli_tiket">Beli Tiket</string>
+    <string name="checkout">Checkout</string>
+    <string name="bayar_sekarang">Bayar Sekarang</string>
+    <string name="batalkan">Batalkan</string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+    <string name="cinema">Cinema</string>
+    <string name="items">Items</string>
+    <string name="seat_no_1">Seat No. C1</string>
+    <string name="seat_no_2">Seat No. C2</string>
+    <string name="total_dibayar">Total Harus Dibayar</string>
+    <string name="e_wallet">E-Wallet</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="simpan_data_baru">Simpan Data Baru</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="saldo_tersisa">Saldo Tersisa</string>
+
+</resources>
