@@ -21,7 +21,7 @@
         <activity android:name=".EditProfileActivity" />
         <activity android:name=".MyWalletActivity" />
         <activity android:name=".signin.SigupPhotoScreenActivity" />
-        <activity android:name=".SplahsScreenActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
