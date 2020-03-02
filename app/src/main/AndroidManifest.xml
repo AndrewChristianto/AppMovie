@@ -14,13 +14,13 @@
         <activity android:name=".onboarding.OnboardingOneActivity" />
         <activity android:name=".onboarding.OnboardingTwoActivity" />
         <activity android:name=".onboarding.OnboardingThreeActivity" />
-        <activity android:name=".signin.SiginActivity" />
-        <activity android:name=".signin.SigupActivity" />
+        <activity android:name=".signin.SignInActivity" />
+        <activity android:name=".signin.SigUpActivity" />
+        <activity android:name=".signin.SigUpPhotoScreenActivity" />
         <activity android:name=".PilihBangkuActivity" />
         <activity android:name=".CheckoutActivity" />
         <activity android:name=".EditProfileActivity" />
         <activity android:name=".MyWalletActivity" />
-        <activity android:name=".signin.SigupPhotoScreenActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

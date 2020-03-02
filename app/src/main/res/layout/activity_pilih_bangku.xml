@@ -8,7 +8,7 @@
     tools:context=".onboarding.OnboardingOneActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_home"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -57,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:srcCompat="@drawable/line" />
+        app:srcCompat="@drawable/ic_line" />
 
     <TextView
         android:id="@+id/textView14"
@@ -145,7 +145,7 @@
         android:layout_marginBottom="24dp"
         android:text="Empty "
         android:textColor="@color/colorWhite"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
