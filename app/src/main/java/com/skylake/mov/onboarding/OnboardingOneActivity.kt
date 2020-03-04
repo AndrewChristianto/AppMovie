@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.skylake.mov.R
 import kotlinx.android.synthetic.main.activity_on_boarding_one.*
-import com.skylake.mov.signin.SignInActivity
+import com.skylake.mov.signin.signin.SignInActivity
 
 class OnboardingOneActivity : AppCompatActivity() {
 
