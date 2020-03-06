@@ -1,4 +1,4 @@
-package com.skylake.mov.signin
+package com.skylake.mov.signin.signup
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

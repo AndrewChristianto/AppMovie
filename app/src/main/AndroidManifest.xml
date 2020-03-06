@@ -20,14 +20,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.noActionBar">
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".DetailActivity"/>
         <activity android:name=".HomeActivity" />
         <activity android:name=".onboarding.OnboardingOneActivity" />
         <activity android:name=".onboarding.OnboardingTwoActivity" />
         <activity android:name=".onboarding.OnboardingThreeActivity" />
         <activity android:name=".signin.signin.SignInActivity" />
-        <activity android:name=".signin.SignUpActivity" />
-        <activity android:name=".signin.SignUpPhotoScreenActivity" />
+        <activity android:name=".signin.signup.SignUpActivity" />
+        <activity android:name=".signin.signup.SignUpPhotoScreenActivity" />
         <activity android:name=".PilihBangkuActivity" />
         <activity android:name=".CheckoutActivity" />
         <activity android:name=".EditProfileActivity" />

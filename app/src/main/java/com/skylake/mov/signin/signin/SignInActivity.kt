@@ -1,16 +1,16 @@
 package com.skylake.mov.signin.signin
 
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.google.firebase.database.*
 import com.skylake.mov.HomeActivity
 import com.skylake.mov.R
-import com.skylake.mov.signin.SignUpActivity
+import com.skylake.mov.signin.signup.SignUpActivity
+import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_sign_in.*
-import java.util.prefs.Preferences
-
+import com.skylake.mov.utils.Preferences
 
 class SignInActivity : AppCompatActivity() {
 
@@ -25,6 +25,16 @@ class SignInActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sign_in)
 
         mDatabase = FirebaseDatabase.getInstance().getReference("User")
+        preferences = Preferences(this)
+
+        preferences.setValues("onboarding", "1")
+        if (preferences.getValues("status").equals("1")) {
+            finishAffinity()
+
+            val intent = Intent(this@SignInActivity,
+                HomeActivity::class.java)
+            startActivity(intent)
+        }
 
         btn_home.setOnClickListener {
             iUsername = et_username.text.toString()
@@ -60,13 +70,13 @@ class SignInActivity : AppCompatActivity() {
                     if (user.password.equals(iPassword)){
                         Toast.makeText(this@SignInActivity, "Selamat Datang", Toast.LENGTH_LONG).show()
 
-                       /* preferences.setValues("nama", user.nama.toString())
+                        preferences.setValues("nama", user.nama.toString())
                         preferences.setValues("user", user.username.toString())
                         preferences.setValues("url", user.url.toString())
                         preferences.setValues("email", user.email.toString())
                         preferences.setValues("saldo", user.saldo.toString())
                         preferences.setValues("status", "1")
-*/
+
                         finishAffinity()
 
                         val intent = Intent(this@SignInActivity,
